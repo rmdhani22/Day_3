@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ps2">
+    <ImageView
+        android:id="@+id/ps"
+        android:background="@drawable/ic_ps2"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/ps11"
+        android:text="@string/sony_playstation_2_fat_game_console_40gb"
+        android:layout_below="@+id/ps22"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/ps22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harga_rp750_000"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ps33"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps11"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="9dp"
+        android:text="@string/sony_playstation_2_fat_game_console_40gb_ref_spch_10000_15000_free_60_games_gaming_pad_silicon_case_adalah_playstation_2_dengan_kemampuan_canggih_yang_dapat_membaca_harddisk_eksternal_sehingga_anda_tidak_perlu_beli_atau_pakai_kaset_lagi_untuk_bermain_game_favorit_anda_untuk_kapasitas_harddisk_sony_menyediakan_berbagai_kapasitas_sehingga_anda_dapat_memilih_sesuai_keinginan_anda_yaitu_40gb_60gb_80gb_dan_160gb_game_atau_permainan_terisi_langsung_kedalam_harddisk_eksternal_1_unit_playstation_2_fat_series_10000_15000_1_hdd_eksternal_40_gb_full_60_games_2_gaming_pad_silicon_case_2_stik_getar_1_memory_booting_1_kabel_av_1_kabel_power_1_panduan_pemakaian"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/ps33"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

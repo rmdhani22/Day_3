@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".macbook">
+    <ImageView
+        android:id="@+id/macbook"
+        android:background="@drawable/ic_macbookpro"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/macbook1"
+        android:text="@string/macbook_pro_3"
+        android:layout_below="@+id/macbook2"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/macbook2"
+        android:text="@string/harga_rp23_799_0001"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/macbook"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/macbook3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/macbook1"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/display_13_3_led_2560_x_1600_retina_display_500_nits_processor_8_core_cpu_with_4_performance_cores_and_4_efficiency_cores_10_core_gpu_16_core_neural_engine_100gb_s_memory_bandwidth_memory_8gb_unified_memory_hard_disk_512gb_ssd_storage_optical_drive_sistem_operasi_mac_os_camera_720p_facetime_hd_camera_networking_802_11ax_wi_fi_6_bluetooth_5_0_wireless_technology_secure_authentication_touch_bar_dan_touch_id_audio_stereo_speakers_dual_microphones_3_5mm_headphone_jack_slots_interface_2x_thunderbolt_usb_4_ports_battery_integrated_58_2_watt_hour_lithium_polymer_battery_adapter_67w_usb_c_power_adapter_system_dimensions_32_5_x_22_7_x_0_3_1_7_cm_weight_1_4_kg"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/macbook3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

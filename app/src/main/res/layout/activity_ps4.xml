@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ps4">
+    <ImageView
+        android:id="@+id/ps"
+        android:background="@drawable/ic_ps4"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/ps11"
+        android:text="@string/sony_ps4_slim_500_gb_playstation_4_hits_bundle_games"
+        android:layout_below="@+id/ps22"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/ps22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harga_rp2_299_000"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ps33"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps11"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/_100_original_100_works_100_on_time_delivery_bisa_online_offline_bisa_pakai_kaset_digital_bukan_hen_refurbished_bonus_games_bisa_online_fullset_terdiri_dari_1_x_playstation_4_slim_500_gb_cuh_20xx_21xx_22xx_1_2_x_dualshock_4_wireless_controller_1_x_kabel_micro_usb_1_x_kabel_power_1_x_kabel_hdmi_1_x_box_fullset"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/ps33"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ps5">
+    <ImageView
+        android:id="@+id/ps"
+        android:background="@drawable/ic_ps5"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/ps11"
+        android:textColor="@color/black"
+        android:text="@string/ps5_playstation5_slim_fat_disc_digital_version"
+        android:layout_below="@+id/ps22"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/ps22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harga_rp7_199_000"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ps33"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps11"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        android:text="@string/spesifikasi_cpu_8x_8x_zen_2_cores_at_3_5_ghz_gpu_10_28_tflops_36_cus_at_2_23_ghz_gpu_architecture_custom_rdna_2_memory_interface_16_gb_gddr6_256_bit_memory_bandwidth_448_gbps_internal_storage_custom_825_gb_ssd_io_throughput_5_56_gbps_raw_typical_8_9_gbps_expendable_storage_nvme_ssd_slot_optical_drive_4k_uhd_blu_ray_drive_isi_dalam_dus_1x_playstation_5_console_disc_version_1x_dualsense_wireless_controller_ps5_1x_usb_charging_cable_1x_hdmi_cable_1x_ac_power_cord"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/ps33"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

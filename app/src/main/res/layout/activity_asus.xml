@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".asus">
+
+    <ImageView
+        android:id="@+id/asus"
+        android:background="@drawable/ic_asustufdash15"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/asus1"
+        android:text="@string/asus_tuf_dash152"
+        android:textColor="@color/black"
+        android:layout_below="@+id/asus2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/asus2"
+        android:text="@string/harga_rp20_999_000"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/asus"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/asus3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/asus1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/processor_onboard_intel_core_i9_11900h_processor_2_5_ghz_24m_cache_up_to_4_9_ghz_8_cores_memori_standar_16_gb_ddr4_3200mhz_8_2_tipe_grafis_nvidia_geforce_rtx_3060_laptop_gpu_6gb_gddr6_ukuran_layar_15_6_inch_fhd_1920_x_1080_16_9_anti_glare_srgb_62_5_adobe_45_refresh_rate_144hz_value_ips_level_adaptive_sync_hard_disk_512gb_m_2_nvme_pcie_3_0_ssd_keyboard_backlit_chiclet_keyboard_rgb_audio_built_in_array_microphone_wireless_network_wi_fi_6_802_11ax_bluetooth_5_1_dual_band_2_2_interfaces_1x_3_5mm_combo_audio_jack_1x_hdmi_2_0b_3x_usb_3_2_gen_1_type_a_1x_rj45_lan_port_1x_type_c_usb_4_support_displayport_power_delivery_thunderbolt_4_sistem_operasi_windows_10_home_microsoft_office_home_dan_student_2019_batteray_90whrs_4s1p_4_cell_li_ion_dimension_36_0_x_25_2_x_1_99_1_99_cm_berat_2_0kg_colour_grey_free_tuf_gaming_bagpack"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/asus3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

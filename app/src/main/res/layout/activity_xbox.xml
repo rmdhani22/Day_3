@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".xbox">
+    <ImageView
+        android:id="@+id/xbox"
+        android:background="@drawable/ic_xbox"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/xbox1"
+        android:text="@string/x_box_series_x_xbox_microsoft_s_disc_digital_edition"
+        android:layout_below="@+id/xbox2"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/xbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xbox"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harga_rp3_950_000"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/xbox3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xbox1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="9dp"
+        android:text="@string/nearly_60_percent_smaller_than_xbox_series_x_all_digital_1440p_resolution_at_up_to_120_frames_per_second_directx_ray_tracing_variable_rate_shading_variable_refresh_rate_ultra_low_latency_custom_512_gb_nvme_ssd_powered_by_xbox_velocity_architecture_4k_streaming_media_playback_4k_upscaling_for_games_the_next_generation_of_gaming_brings_our_largest_digital_launch_library_yet_to_our_smallest_xbox_ever_with_more_dynamic_worlds_fast_new_xbox_series_x_photos_finally_show_what_the_console_looks_like_in_real_life_nearly_60_percent_smaller_than_xbox_series_x_all_digital_1440p_resolution_at_up_to_120_frames_per_second_directx_ray_tracing_variable_rate_shading_variable_refresh_rate_ultra_low_latency_custom_512_gb_nvme_ssd_powered_by_xbox_velocity_architecture_4k_streaming_media_playback_4k_upscaling_for_games" />
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/xbox3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

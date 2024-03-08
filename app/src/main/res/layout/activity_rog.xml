@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".rog">
+    <ImageView
+        android:id="@+id/rog"
+        android:background="@drawable/ic_rog7"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/rog1"
+        android:text="@string/asus_phone_rog_7_ultimate"
+        android:layout_below="@+id/rog"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/rog2"
+        android:text="@string/harga_rp_16_009_500_rp_17_009_500"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/rog"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/hp_asus_rog_phone_7_ultimate_memiliki_ukuran_layar_standar_dengan_resolusi_2448_x_1080pixels_berteknologi_amoled_sehingga_hp_ini_mempunyai_berat_sebesar_239g_serta_mempunyai_material_berupa_aluminium_kaca_dengan_dimensi_173_x_77_x_10_3mm_kinerja_hp_asus_rog_phone_7_ultimate_didukung_dengan_prosesor_qualcomm_sm8550_ab_snapdragon_8_gen_2_4_nm_octa_core_yang_dapat_mendukung_pengguna_dalam_mengoprasikan_hp_ini_kapasitas_baterai_yang_dimiliki_hp_asus_rog_phone_7_ultimate_ini_adalah_6000mah_yang_telah_mendukung_reverse_charging_kualitas_kamera_utama_asus_rog_phone_7_ultimate_adalah_50_13_5mp_serta_memiliki_kamera_selfie_sebesar_32mp_dengan_type_triple_kamera_resolusi_yang_dihasilkan_oleh_kamera_hp_asus_rog_phone_7_ultimate_adalah_full_hd"
+        android:layout_below="@+id/rog1"
+        android:textColor="@color/black"
+        android:id="@+id/rog3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/rog3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

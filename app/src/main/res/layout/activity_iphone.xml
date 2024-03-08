@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".iphone">
+
+    <ImageView
+        android:id="@+id/iphone"
+        android:background="@drawable/ic_iphone15"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/iphone1"
+        android:text="@string/iphone_15_pro_max"
+        android:layout_below="@+id/iphone2"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/iphone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iphone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harga_iphone_15_pro_max_256gb_rp24_999_000_harga_iphone_15_pro_max_512gb_rp29_999_000_harga_iphone_15_pro_max_1tb_rp33_999_000"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/iphone3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iphone1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="9dp"
+        android:text="@string/desain_dan_layar_layar_oled_6_7_inci_dengan_tingkat_kecerahan_mencapai_2_000_nits_dan_dilindungi_oleh_ceramic_shield_bingkai_terbuat_dari_titanium_grade_5_memberikan_ringan_dan_ketahanan_ekstra_tersedia_dalam_tiga_pilihan_warna_putih_biru_dan_hitam_performa_dan_fotografi_chip_a17_pro_bionic_dengan_arsitektur_3nm_untuk_peningkatan_performa_sebesar_10_kamera_utama_48mp_dengan_sensor_lebih_besar_kemampuan_telefoto_canggih_dan_kemampuan_merekam_video_hingga_4k" />
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/iphone3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".realme">
+    <ImageView
+        android:id="@+id/realme"
+        android:background="@drawable/ic_realme11"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/realme1"
+        android:text="@string/realme_11_pro_plus"
+        android:textColor="@color/black"
+        android:layout_below="@+id/realme"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/realme2"
+        android:text="@string/harga_rp_6_009_500_rp_7_009_50_0"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/realme"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/hp_realme_11_pro_plus_memiliki_ukuran_layar_standar_dengan_resolusi_1080_x_2412pixels_berteknologi_amoled_sehingga_hp_ini_mempunyai_berat_sebesar_183g_serta_mempunyai_material_berupa_kaca_plastik_dengan_dimensi_73_9_x_161_6_x_8_2mm_kinerja_hp_realme_11_pro_plus_didukung_dengan_prosesor_mediatek_dimensity_7050_6_nm_octa_core_yang_dapat_mendukung_pengguna_dalam_mengoprasikan_hp_ini_kapasitas_baterai_yang_dimiliki_hp_realme_11_pro_plus_ini_adalah_5000mah_yang_telah_mendukung_fast_charging_kualitas_kamera_utama_realme_11_pro_plus_adalah_200_8_2mp_serta_memiliki_kamera_selfie_sebesar_32mp_dengan_type_triple_kamera_resolusi_yang_dihasilkan_oleh_kamera_hp_realme_11_pro_plus_adalah_full_hd"
+        android:layout_below="@+id/realme1"
+        android:textColor="@color/black"
+        android:id="@+id/realme3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/realme3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

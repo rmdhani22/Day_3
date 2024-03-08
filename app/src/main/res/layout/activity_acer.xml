@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".acer">
+    <ImageView
+        android:id="@+id/acer"
+        android:background="@drawable/ic_acernitro5"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/acer1"
+        android:text="@string/acer_nitro51"
+        android:layout_below="@+id/acer2"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/acer2"
+        android:text="@string/harga_rp20_199_000"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/acer"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/acer3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/acer1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/processor_intel_core_i9_11900h_processor_24mb_cache_up_to_4_80ghz_memory_16gb_ddr4_3200mhz_storage_512gb_ssd_nvme_graphics_nvidia_geforce_rtx_3060_with_6gb_of_gddr6_display_15_6_display_with_ips_in_plane_switching_technology_qhd_165hz_chipset_intel_hm570_mobile_pch_chipset_keyboard_rgb_4_zone_keyboard_audio_optimized_dolby_audio_premium_sound_enhancement_camera_webcam_hd_camera_networking_wireless_wi_fi_6_ax201_bluetooth_slots_interface_1x_usb_3_2_gen_2_port_featuring_power_off_usb_charging_2x_usb_3_2_gen_1_ports_1x_hdmi_2_0_port_with_hdcp_support_1x_ethernet_rj_45_port_1x_3_5_mm_headphone_speaker_jack_supporting_headsets_with_built_in_operating_system_windows_11_home_microsoft_office_home_dan_student_2021_battery_57_wh_lithium_polymer_battery_battery_weight_2_70_kg_warranty_2_years_acer_indonesia_bonus_bag"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/acer3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

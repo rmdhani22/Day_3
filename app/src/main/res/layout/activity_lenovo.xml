@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".lenovo">
+
+    <ImageView
+        android:id="@+id/lenovo"
+        android:background="@drawable/ic_lenovolegion"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/lenovo1"
+        android:text="@string/lenovo_legion1"
+        android:layout_below="@+id/lenovo2"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/lenovo2"
+        android:text="@string/harga_rp23_799_000"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/lenovo"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lenovo3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lenovo1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="@string/processor_intel_core_i7_10875h_processor_8_core_2_3_ghz_up_to_5_1ghz_16mb_cache_display_15_6_fhd_ips_1920_x_1080_300_nits_144hz_100_adobe_srgb_dolby_vision_enabled_memory_32_gb_ddr4_2933mhz_storage_1tb_ssd_m_2_2280_pcie_3_0_4_nvme_graphics_nvidia_geforce_rtx_2060_6_gb_gddr6_audio_2_x_2w_harman_kardon_speaker_system_keyboard_4_zone_rgb_backlit_wireless_network_intel_wifi_6_802_11ax_2_x_2_bluetooth_5_0_slots_interface_1x_power_connector_1x_card_reader_2x_usb_c_3_2_gen_2_thunderbolt_3_support_data_transfer_power_delivery_100w_and_displayport_1_4_1x_usb_3_2_gen_2_1x_headphone_microphone_combo_jack_3_5mm_1x_usb_3_2_gen_2_always_on_operating_system_windows_10_home_microsoft_office_home_dan_student_2019_battery_integrated_71wh_power_adapter_230w_ac_adapter_dimensions_356_x_250_x_15_9_17_9_weight_1_86_kg_warranty_garansi_lenovo_2_tahun_accidently_damage_protection_bonus_recon_bagpack_mouse_headset" />
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/lenovo3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

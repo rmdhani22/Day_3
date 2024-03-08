@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".blackshark">
+    <ImageView
+        android:id="@+id/blackshark"
+        android:background="@drawable/ic_blackshark"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/blackshark1"
+        android:text="@string/black_shark_3_pro"
+        android:layout_below="@+id/blackshark2"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/blackshark2"
+        android:text="@string/harga_rp_14_010_500_rp_16_510_500"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/blackshark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/hp_xiaomi_black_shark_3_pro_memiliki_ukuran_layar_sebesar_7_1_inci_dengan_resolusi_1440_x_3120pixels_berteknologi_amoled_sehingga_hp_ini_mempunyai_berat_sebesar_253g_serta_mempunyai_material_berupa_aluminium_dengan_dimensi_177_8_x_83_3_x_10_1mm_kinerja_hp_xiaomi_black_shark_3_pro_didukung_dengan_prosesor_qualcomm_sm8250_snapdragon_865_7_nm_octa_core_yang_dapat_mendukung_pengguna_dalam_mengoprasikan_hp_ini_kapasitas_baterai_yang_dimiliki_hp_xiaomi_black_shark_3_pro_ini_adalah_4720mah_yang_telah_mendukung_fast_charging_kualitas_kamera_belakang_xiaomi_black_shark_3_pro_adalah_64_13_5mp_serta_memiliki_kamera_depan_sebesar_20mp_dengan_type_single_kamera_resolusi_yang_dihasilkan_oleh_kamera_hp_xiaomi_black_shark_3_pro_adalah_full_hd"
+        android:layout_below="@+id/blackshark1"
+        android:textColor="@color/black"
+        android:id="@+id/blackshark3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/blackshark3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

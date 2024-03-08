@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".msi">
+    <ImageView
+        android:id="@+id/msi"
+        android:background="@drawable/ic_msikatana"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/msi1"
+        android:text="@string/msi_katana_gf661"
+        android:layout_below="@+id/msi2"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="150dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/msi2"
+        android:text="@string/harga_rp26_999_000"
+        android:textColor="#3F51B5"
+        android:layout_below="@+id/msi"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/msi3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msi1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="@string/processor_onboard_intel_core_i7_12700h_processor_24m_cache_up_to_4_70_ghz_memori_standar_16_gb_ddr4_tipe_grafis_nvidia_geforce_rtx3070_max_q_8gb_gddr6_ukuran_layar_15_6_fhd_1920_1080_240hz_close_to_100_srgb_hard_disk_512gb_nvme_pcie_ssd_keyboard_single_red_keyboard_kamera_hd_type_30fps_720p_wireless_network_intel_wi_fi_6_ax201_2_2_ax_bt5_2_interfaces_1x_type_c_usb3_2_gen1_2x_type_a_usb3_2_gen1_1x_type_a_usb2_0_1x_rj45_1x_4k_60hz_hdmi_sistem_operasi_windows_11_home_batteray_3_cell_53_5_whr_li_polymer_dimension_359_x_259_x_24_9_mm_berat_2_2kg_colour_black_free_bagpack_msi"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:background="@drawable/ic_share"
+        android:layout_below="@+id/msi3"
+        android:contentDescription="@string/tampilanbtnshare"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
